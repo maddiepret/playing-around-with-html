@@ -1,0 +1,69 @@
+html{
+	background-color: #ACB9D2;
+}
+
+.navbar-brand{
+text-align: center;
+font-family: fantasy;
+font-size: 5em;
+color:brown;
+}
+
+.mt-0{
+	text-align: center; 
+	color:grey; 
+	font-size: 20em;
+	font-family: fantasy;
+}
+
+.firstP{
+	text-align: center; 
+	color:grey; 
+	font-size: 2em;
+	border-style: solid;
+	border-color: grey;
+	font-family: fantasy;
+	padding: 2%;
+}
+
+.aboutStore{
+	text-align: center;
+	text-decoration-color: grey, black;
+	font-size: 5em;
+	font-family: fantasy;
+}
+
+/*According to Bootstrap thumbnails is a way to lay out images, videos, text, etc, in a grid.*/
+.container img{ 
+	float: left; 
+	display: inline-block;
+	border: 3px solid #ddd; /* Gray border */
+  	border-radius: 5px;  /* Rounded border */
+  	padding: 5px; /* Some padding */
+  	width: 250px; /* Set a small width */
+  	border-radius: 4px
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.btn-primary{
+	float: right;
+	padding: 2px;
+	border-style: solid;
+	border-color: "dark grey";
+	margin:3px;
+	color: black;
+}
+
+/*Responsive images will automatically adjust to fit the size of the screen*/
+.responsive {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.card-title{
+	text-align: center;
+	padding: 10px;
+}
